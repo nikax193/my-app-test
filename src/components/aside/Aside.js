@@ -5,11 +5,11 @@ function Aside() {
     return (
         <aside className="aside">
             <div className="categories">Categories</div>
-            <nav className="nav">
+            <nav className="aside-nav-links">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/phones">Phones</a></li>
+                    <li><a href="/laptops">Laptops</a></li>
+                    <li><a href="/accessories">Accessories</a></li>
                 </ul>
             </nav>
         </aside>

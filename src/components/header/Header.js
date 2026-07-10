@@ -4,13 +4,16 @@ import './Header.css';
 function Header() {
   return (
     <header>
-        <div className="logo">MS</div>
-        <h2 className="title">My Shop </h2>
+      <div className="left-header-content"> 
+          <div className="logo">MS</div>
+          <h2 className="title">My Shop </h2>
+      </div>
+       
          <nav className="nav">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/product">Products</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
     </header>
