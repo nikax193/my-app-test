@@ -24,6 +24,10 @@ header{
     cursor: pointer;
 }
 
+.title:hover{
+    color: #e77044;
+}
+
 .logo{
     font-size: 20px;
     font-weight: bold;
@@ -36,6 +40,11 @@ header{
     margin-left: 20px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    background-color: #e77044;
 }
 
 .nav {
@@ -57,4 +66,8 @@ header{
 .nav ul li a {
     text-decoration: none;
     color: rgb(250, 250, 250);
+}
+
+.nav ul li a:hover {
+    color: #e77044;
 }

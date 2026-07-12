@@ -38,3 +38,7 @@
     color: #fff;
     font-weight: bold;
 }
+
+.aside-nav-links a:hover {
+    color: #e77044;
+}
