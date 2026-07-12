@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../header/Header";
 import Aside from "../aside/Aside";
 import Card from "../card/Card";
+import Footer from "../footer/Footer";
 import './App.css';
 
 
@@ -65,6 +66,7 @@ function App() {
         ))}
         </div>
         </div>
+        <Footer/>
     </>
 
   );
