@@ -1,6 +1,6 @@
 import React from "react";
 import './Card.css';
-import products from "../app/App";
+
 
 
 function Card({ title, icon, badge, addToCart, price }) {
